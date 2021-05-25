@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    color: darkcyan;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+
+        header{
+            background-color: aquamarine;
+            font-size: 30px;
+            padding: 20px 0 ; 
+        }
+
+        .dettagli{
+            padding: 10px 0;
+        }
+
+}
+
+
+.contain{
+
+    background-color: floralwhite;
+    padding: 20px 0;
+
+        p{
+            padding-bottom: 10px;
+        }
+
+        ul li{
+            list-style-type: none;
+            padding: 5px;
+        }
+
+}
+
+.dett-ospite {
+    p{
+        padding:10px 0;
+    }
+}
+
+footer{
+    background-color: darkcyan;
+    color: floralwhite;
+    padding:50px auto;
+
+        p{
+            padding: 20px 0;
+        }
+   
+}
