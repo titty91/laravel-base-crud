@@ -13,11 +13,18 @@ body{
         header{
             background-color: aquamarine;
             font-size: 30px;
-            padding: 20px 0 ; 
+            padding: 20px 0; 
+
+            a{
+                text-decoration: none;
+                color: darkcyan;
+            }
+
+        
         }
 
         .dettagli{
-            padding: 10px 0;
+            padding: 15px 0;
         }
 
 }
@@ -35,6 +42,20 @@ body{
         ul li{
             list-style-type: none;
             padding: 5px;
+        }
+
+        .a-li, a{
+            text-decoration: none;
+            margin: 15px 0;
+            color: darkcyan;
+        }
+
+        .btn-aggiungi{
+            text-decoration: none;
+            margin: 50px;
+            color:white;
+            background-color: darkcyan;
+
         }
 
 }

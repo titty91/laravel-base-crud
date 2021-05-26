@@ -1,11 +1,14 @@
 @extends('layouts.main-layout')
 @section('content')
 
+
+
     <p class="dettagli">
         <strong>
             Dettaglio Ospite
         </strong>
     </p>
+    
     <div class="dett-ospite">
         <label for="">
             <strong>

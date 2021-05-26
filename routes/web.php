@@ -23,3 +23,9 @@ Route::get('/ospiti', 'TestController@home')
 
 Route::get('ospiti/{id}','TestController@show')
     ->name('show-ospite');
+
+Route::get('ospiti-form','TestController@form')
+    ->name('form');
+
+Route::post('ospiti', 'TestController@store')
+    ->name('store');

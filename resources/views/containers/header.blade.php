@@ -1,3 +1,9 @@
 <header>
-    <h1>Hotel Boolean</h1>
+    <h1>
+        <a href="{{ route('home')}}">
+            Hotel Boolean
+        </a>
+    </h1>
+
+    
 </header>

@@ -27,4 +27,35 @@ class TestController extends Controller
         //dd($ospite);
         return view('pages.ospite', compact('ospite'));
     }
+
+    
+    public function form()
+    {
+        
+        return view('pages.ospiti-form');
+    }
+
+    public function store(Request $request){
+
+        //dd($request -> all());
+
+        $validate =$request -> validate([
+
+            'name' => 'nullable|max:100',
+            'lastname' => 'nullable|max:100',
+            'date_of_birth' => 'nullable|date',
+            'document_type' => 'nullable|max:20',
+            'document_number' => 'nullable|numeric'
+
+
+        ]);
+
+        $ospite = Ospite::create($validate);
+
+        return redirect()->route('show-ospite', $ospite->id);
+    }
+
+    
+
+   
 }

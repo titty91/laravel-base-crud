@@ -16,8 +16,13 @@ body header {
   padding: 20px 0;
 }
 
+body header a {
+  text-decoration: none;
+  color: darkcyan;
+}
+
 body .dettagli {
-  padding: 10px 0;
+  padding: 15px 0;
 }
 
 .contain {
@@ -32,6 +37,20 @@ body .dettagli {
 .contain ul li {
   list-style-type: none;
   padding: 5px;
+}
+
+.contain .a-li,
+.contain a {
+  text-decoration: none;
+  margin: 15px 0;
+  color: darkcyan;
+}
+
+.contain .btn-aggiungi {
+  text-decoration: none;
+  margin: 50px;
+  color: white;
+  background-color: darkcyan;
 }
 
 .dett-ospite p {
